@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Quiet Salah</title>
+  <meta name="description" content="Help and contact for Quiet Salah, an app from Kik Rox LLC doing business as VoltedLife." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #07060f;
+      --cream: rgba(232, 213, 176, 0.88);
+      --cream-dim: rgba(232, 213, 176, 0.45);
+      --gold: #f0d8a0;
+      --gold-deep: #dfbc70;
+      --line: rgba(240, 180, 60, 0.14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(ellipse at 70% 10%, rgba(240, 180, 60, 0.07), transparent 45%),
+        radial-gradient(ellipse at 20% 80%, rgba(80, 90, 160, 0.12), transparent 40%),
+        var(--night);
+      color: var(--cream);
+      font-family: Lora, Georgia, serif;
+      line-height: 1.7;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .kicker {
+      font-size: 11px;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--cream-dim);
+      margin: 0 0 18px;
+    }
+    h1 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      color: var(--gold);
+      margin: 0 0 12px;
+      text-shadow: 0 0 40px rgba(240, 180, 60, 0.25);
+    }
+    .meta { color: var(--cream-dim); font-size: 0.95rem; margin: 0 0 6px; }
+    .rule {
+      width: 48px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(240, 180, 60, 0.55), transparent);
+      margin: 28px 0;
+    }
+    h2 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: var(--gold-deep);
+      margin: 1.8em 0 0.5em;
+    }
+    p, li { color: var(--cream-dim); font-size: 1rem; }
+    ul { padding-left: 1.2em; }
+    a { color: var(--gold); }
+    footer {
+      margin-top: 48px;
+      font-size: 0.85rem;
+      color: rgba(232, 213, 176, 0.28);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="kicker">Quiet Salah</p>
+    <h1>Support</h1>
+    <p class="meta"><strong>Contact:</strong> <a href="mailto:david@voltedlife.com">david@voltedlife.com</a></p>
+    <div class="rule"></div>
+
+    <p>Quiet Salah silences your iPhone when you arrive at a mosque and brings the sound back when you leave. Setup takes three steps in the app. If something isn’t working, these answers cover the common cases.</p>
+
+    <h2>Setting up on iPhone</h2>
+    <ul>
+      <li><strong>Step 1, permissions:</strong> allow notifications and location. For location choose <strong>Always</strong> and keep <strong>Precise Location</strong> on; mosque detection doesn’t work without them.</li>
+      <li><strong>Step 2, add the shortcut:</strong> tap <strong>Get the shortcut</strong>, then <strong>Add Shortcut</strong>. On that same screen, switch the automation <strong>On</strong>. iPhone always adds shared automations switched off, and only you can turn it on.</li>
+      <li><strong>Step 3, test with the phone locked:</strong> tap <strong>Start test</strong>, lock the phone and don’t tap the alert. Do Not Disturb should turn on by itself and then off again. Quiet Salah checks the result for you.</li>
+    </ul>
+
+    <h2>Common questions</h2>
+    <h3 style="font-weight:400;color:var(--gold);font-size:1.05rem;margin:1.2em 0 0.3em;">The phone didn’t go silent.</h3>
+    <p>Open the Shortcuts app, go to <strong>Automation</strong>, find <strong>Quiet Salah Auto</strong> and make sure it is on and set to <strong>Run Immediately</strong> (not “Ask Before Running”). Then run the test again from Quiet Salah.</p>
+    <h3 style="font-weight:400;color:var(--gold);font-size:1.05rem;margin:1.2em 0 0.3em;">The sound didn’t come back when I left.</h3>
+    <p>Go to <strong>Settings › Focus › Do Not Disturb › Apps</strong> and add <strong>Quiet Salah</strong>, so its “Left” alert can get through while Do Not Disturb is on.</p>
+    <h3 style="font-weight:400;color:var(--gold);font-size:1.05rem;margin:1.2em 0 0.3em;">Calls still ring during prayer.</h3>
+    <p>Optional: <strong>Settings › Focus › Do Not Disturb › People › Allow Calls From: No One</strong>, and turn off <strong>Repeated Calls</strong>.</p>
+    <h3 style="font-weight:400;color:var(--gold);font-size:1.05rem;margin:1.2em 0 0.3em;">My mosque isn’t detected.</h3>
+    <p>When you’re there, open Quiet Salah and tap <strong>I’m at a new mosque</strong> to save it. If the app is reacting to the wrong place, use <strong>Wrong mosque? Hide it</strong>.</p>
+    <h3 style="font-weight:400;color:var(--gold);font-size:1.05rem;margin:1.2em 0 0.3em;">Keyboard clicks still make sound.</h3>
+    <p><strong>Settings › Sounds &amp; Haptics › Keyboard Feedback</strong> and turn Sound off.</p>
+    <h3 style="font-weight:400;color:var(--gold);font-size:1.05rem;margin:1.2em 0 0.3em;">Does Quiet Salah track me?</h3>
+    <p>No. Your location is used only on your phone, and the app has no account, server or analytics. See the <a href="https://apps.voltedlife.com/quiet-salah-privacy">privacy policy</a>.</p>
+
+    <h2>Contact</h2>
+    <p>Still stuck, or have a mosque to add or correct? Email <a href="mailto:david@voltedlife.com">david@voltedlife.com</a> with your iPhone model and iOS version, and what you saw.</p>
+
+    <footer>© 2026 Kik Rox LLC (d/b/a VoltedLife) · Quiet Salah</footer>
+  </main>
+</body>
+</html>

@@ -4,6 +4,8 @@ Static legal pages for VoltedLife apps, hosted for free on GitHub Pages at [apps
 
 - [Connect the Dots Privacy Policy](https://apps.voltedlife.com/connect-the-dots-privacy)
 - [Delete your Connect the Dots account](https://apps.voltedlife.com/connect-the-dots-delete-account)
+- [Quiet Salah Privacy Policy](https://apps.voltedlife.com/quiet-salah-privacy)
+- [Quiet Salah Support](https://apps.voltedlife.com/quiet-salah-support)
 
 Contact: [david@voltedlife.com](mailto:david@voltedlife.com)
 
